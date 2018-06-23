@@ -28,7 +28,7 @@ node {
      dir('CRUDPruebas') {
     try {
        
-       sh " docker rm -f prueba-docker-jenkins"
+       //sh " docker rm -f prueba-docker-jenkins"
        
        sh "docker run -d -p 8080:8080 prueba-docker-jenkins"
        
