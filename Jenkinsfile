@@ -30,7 +30,7 @@ node {
        
        //sh " docker rm -f prueba-docker-jenkins"
        
-       sh "docker run -d -p 8080:8080 prueba-docker-jenkins"
+       sh "docker run -d -p 8585:8080 prueba-docker-jenkins"
        
       // Start database container here
       // sh 'docker run -d --name db -p 8091-8093:8091-8093 -p 11210:11210 arungupta/oreilly-couchbase:latest'
